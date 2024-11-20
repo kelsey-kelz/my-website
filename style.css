@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+.container {
+  margin: 0 300px;
+  padding: 80px 0;
+}
+
+header.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  flex: 100%;
+  margin-right: 40px;
+}
+
+.hero-image {
+  background-color: #777777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+div.hero,
+footer {
+  background-color: #1f2937;
+}
+
+.hero-info h2 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900px;
+}
+
+.navbar a,
+.one p,
+.info p,
+footer {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button,
+.cta {
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 40px;
+
+  color: #f9faf8;
+  font-weight: 700;
+  border: none;
+}
+
+section h3 {
+  font-size: 36px;
+  font-weight: 900px;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.box {
+  border: #3882f6 5px solid;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.item p {
+  width: 200px;
+  text-align: center;
+  color: #777777;
+  padding-top: 10px;
+}
+
+.content ul {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex: 1;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: 300px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+section.quote {
+  padding: 0 100px;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 600;
+  text-align: end;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+.info p {
+  font-weight: 100;
+}
+
+p.action {
+  color: #f9faf8;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.cta button {
+  border: #f9faf8 2px solid;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+}
